@@ -1,0 +1,10 @@
+IF OBJECT_ID('dbo.UsersView', 'V') IS NOT NULL
+BEGIN
+	DROP VIEW dbo.UsersView
+END
+GO
+
+CREATE VIEW UsersView
+AS
+SELECT * FROM Users
+GO
