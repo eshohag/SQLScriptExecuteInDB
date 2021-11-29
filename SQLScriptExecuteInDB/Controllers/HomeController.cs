@@ -19,22 +19,9 @@ namespace SQLScriptExecuteInDB.Controllers
             foreach (var file in viewsList)
             {
                 var textFile = System.IO.File.ReadAllText(file);
-
                 dbContext.Database.ExecuteSqlCommand(textFile);
             }
 
-            return View();
-        }
-
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
             return View();
         }
     }
