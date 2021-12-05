@@ -1,10 +1,10 @@
-﻿using SQLScriptExecuteInDB.DB;
+﻿using SQLScriptExecuteInDB1.DB;
 using System.Diagnostics;
 using System.IO;
 using System.Web.Hosting;
 using System.Web.Mvc;
 
-namespace SQLScriptExecuteInDB.Controllers
+namespace SQLScriptExecuteInDB1.Controllers
 {
     public class HomeController : Controller
     {

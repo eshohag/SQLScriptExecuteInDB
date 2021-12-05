@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace SQLScriptExecuteInDB.Models
+namespace SQLScriptExecuteInDB1.Models
 {
     [Table("Users", Schema = "UserRegistrations")]
     public class User

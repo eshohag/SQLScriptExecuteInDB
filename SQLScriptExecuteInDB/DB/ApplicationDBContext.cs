@@ -1,7 +1,7 @@
-﻿using SQLScriptExecuteInDB.Models;
+﻿using SQLScriptExecuteInDB1.Models;
 using System.Data.Entity;
 
-namespace SQLScriptExecuteInDB.DB
+namespace SQLScriptExecuteInDB1.DB
 {
     public class ApplicationDBContext : DbContext
     {
