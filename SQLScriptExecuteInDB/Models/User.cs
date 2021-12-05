@@ -1,5 +1,8 @@
-﻿namespace SQLScriptExecuteInDB.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace SQLScriptExecuteInDB.Models
 {
+    [Table("Users", Schema = "UserRegistrations")]
     public class User
     {
         public int Id { get; set; }
