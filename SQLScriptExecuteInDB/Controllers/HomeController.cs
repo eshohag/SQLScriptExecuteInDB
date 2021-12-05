@@ -16,6 +16,8 @@ namespace SQLScriptExecuteInDB.Controllers
         }
         public ActionResult Index()
         {
+
+            var testANny = "Terst";
             string[] viewsList = Directory.GetFiles(HostingEnvironment.MapPath("/DB/Scripts/Views"), "*.sql", SearchOption.AllDirectories);
             foreach (var filePath in viewsList)
             {
