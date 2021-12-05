@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLScriptExecuteInDB1", "SQLScriptExecuteInDB\SQLScriptExecuteInDB1.csproj", "{FB35B021-918B-4893-900A-565C3147D1EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLScriptExecuteInDB1", "SQLScriptExecuteInDB1\SQLScriptExecuteInDB1.csproj", "{FB35B021-918B-4893-900A-565C3147D1EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
